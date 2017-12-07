@@ -42,8 +42,7 @@ namespace UserIDAndPasswordAfter3WrongAttemptsRejected_3
             {
                 Console.Write("\nLogin attemp more than three times. Try later!\n\n");
             }
-            else
-            if (dd == 1)
+            else if (dd == 1)
             {
                 Console.Write("\nSuccessfull!\n\n");
             }
